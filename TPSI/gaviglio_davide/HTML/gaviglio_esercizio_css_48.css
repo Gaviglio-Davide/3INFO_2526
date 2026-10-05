@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: rgb(0, 0, 0);
+  }
+  
+  h2 {
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  .griglia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: black;
+    gap: 2px;
+  }
+  
+  .cella {
+    background-color: orange;
+    aspect-ratio: 1;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vuota {
+    background-color: black;
+  }
